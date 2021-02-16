@@ -1,0 +1,85 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+html,
+body {
+  font-family: sans-serif; 
+}
+main{
+    margin-top: 100px;
+}
+a,a:hover{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.banner{
+    position: relative;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 120px;
+}
+.icon{
+    font-size: 1.5em;
+    color: #ff7300; 
+}
+.iconsearch{
+    font-size: 1.3em;
+    color: #ff7300; 
+}
+.inputradius{
+    border-radius:50px;
+    -moz-border-radius:50px; /* Firefox 3.6 and earlier */
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(219, 219, 219);
+}
+.space{
+    margin-bottom: 15%;
+}
+.space-title{
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #133E54;
+    background: linear-gradient(45deg, #133E54 5%, #FF872D 100%);
+}
+.button-center{
+    margin-top: 2%;
+    text-align: center;
+    
+}
+.button-right{
+    float: right;
+}
+.loginpadding{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+.center{
+    text-align: center;
+}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  

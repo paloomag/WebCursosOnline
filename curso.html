@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Clinitec Cursos Online</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/c0ba00ee12.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="folha.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Cursos Online Clinitec</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Categorias
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Tipo1</a></li>
+                                        <li><a class="dropdown-item" href="#">Tipo2</a></li>
+                                        <!-- <li><hr class="dropdown-divider"></li> -->
+                                        <li><a class="dropdown-item" href="#">Tipo3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                                <form class="form-inline d-flex">
+                                    <input class="form-control inputradius" type="text" placeholder="Procurar" aria-label="procurar">
+                                    <button class="btn iconsearch" type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="icon fas fa-user-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="text-center">
+                <h3>Curso da Área #--#</h3>
+                <h4>Video Aula de #</h4>
+                <br>
+            </div>
+            <div class="row justify-content-center">
+                   
+                <div class="col-5">
+                    <video
+                    id="my-video"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    width="640"
+                    height="264"
+                    poster="MY_VIDEO_POSTER.jpg"
+                    data-setup="{}"
+                    >
+                        <source src="https://www.w3schools.com/html/mov_BBB.mp4" type="video/mp4" />
+                        <source src="w3schools.com/html/mov_BBB.mp4" type="video/webm" />
+                        <p class="vjs-no-js">
+                        </p>
+                    </video>
+                </div>
+               <div class="col-4">
+                    <p>Playlist</p>
+                    <ol>
+                        <li>teste <button>teste</button></li>
+                        <li>teste <button>teste</button></li>
+                        <li>teste <button>teste</button></li>
+                    </ol>
+               </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="text-center">© 2020 Clinitec Internet Banda Larga</p>
+        </footer>
+        <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>        
