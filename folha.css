@@ -11,11 +11,17 @@ main{
 }
 a,a:hover{
     text-decoration: none;
-    color: black;
 }
 li{
     padding-top: 2%;
     padding-bottom: 2%;
+}
+.navbar-color{
+    background-color: #133e54;
+}
+.nav-text{
+    color: #fff;
+
 }
 .banner{
     position: relative;
@@ -26,11 +32,11 @@ li{
 }
 .icon{
     font-size: 1.5em;
-    color: #ff7300; 
+    color: #133e54; 
 }
 .iconsearch{
     font-size: 1.3em;
-    color: #ff7300; 
+    color: #133e54; 
 }
 .inputradius{
     border-radius:50px;
@@ -53,7 +59,7 @@ li{
     text-align: center;
     color: white;
     background: #133E54;
-    background: linear-gradient(45deg, #133E54 5%, #FF872D 100%);
+    background: linear-gradient(45deg, #133E54 5%, #133e54 100%);
 }
 .button-center{
     margin-top: 2%;
