@@ -10,7 +10,10 @@ main{
     margin-top: 100px;
 }
 a,a:hover{
-    text-decoration: none;
+    text-decoration: none;   
+    color: black;
+}
+.text-white{
     color: #fff;
 }
 li{
@@ -22,22 +25,30 @@ li{
 }
 .nav-text{
     color: #fff;
-
 }
-.banner{
-    position: relative;
-    background: url(img/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 250px 0 120px;
+.padding-nav{
+    padding: 1%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+.carousel-nav-icon {
+    height: 28px;
+    width: 28px;
+ }
+.carousel-item
+.col, .col-sm, .col-md {
+       margin: 8px;
+       height: 300px;
+       background-size: contain;
+       background-position: center center;
 }
 .icon{
     font-size: 1.5em;
-    color: #133e54; 
+    color: white; 
 }
 .iconsearch{
     font-size: 1.3em;
-    color: #133e54; 
+    color: white; 
 }
 .inputradius{
     border-radius:50px;
@@ -50,6 +61,9 @@ li{
     width: 100%;
     padding: 2%;
     background-color: rgb(219, 219, 219);
+}
+.deck{
+    margin-right: 2%;
 }
 .space{
     margin-bottom: 15%;
