@@ -79,7 +79,12 @@ li{
 .button-center{
     margin-top: 2%;
     text-align: center;
-    
+}
+.btn-size{
+    font-size: 28px;
+}
+.btn-color,.btn-color:hover{
+    color:#133e54;
 }
 .button-right{
     float: right;
