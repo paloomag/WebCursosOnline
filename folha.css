@@ -83,8 +83,16 @@ li{
 .btn-size{
     font-size: 28px;
 }
+.btn-center{
+    align-items: center;
+}
 .btn-color,.btn-color:hover{
     color:#133e54;
+}
+.btn-color-back{
+    background-color: #133e54;
+    color: #fff;
+    
 }
 .button-right{
     float: right;
